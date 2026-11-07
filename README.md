@@ -17,7 +17,7 @@
 
 ## Process
 
-1. **Cleaned** the raw orders: standardised gender and status values, derived age groups and month from the order date.
+1. **Prepared** the data: added an **Age group** column (Teenager / Adult / Senior, from an `IF` formula on age) and a **Month** column from the order date.
 2. **Analysed** with pivot tables: sales vs. orders by month, order status, sales channel, top states, and age × gender.
 3. **Built** a one-page dashboard with slicers for **Category**, **Channel** and **Month**, so every chart filters together.
 
